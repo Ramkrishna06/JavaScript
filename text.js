@@ -33,11 +33,20 @@ const numberband = new Number(10000)
 // console.log(numberband.toLocaleString());
 
 // console.log(String);
-console.log(Math.random()*10 + 1);
+// console.log(Math.random()*10 + 1);
 
-const min = 15;
-const max =25;
+// const min = 15;
+// const max =25;
 
-console.log(Math.floor(Math.random()*10 + 1)+ min);
+// console.log(Math.floor(Math.random()*10 + 1)+ min);
 
 
+
+// this is date section 
+let d = new Date();
+ console.log(d.toLocaleString());
+// console.log(d.toDateString( ));
+console.log(d.toLocaleString("default",{
+    day : "numeric",
+  weekday : "long"
+}));
